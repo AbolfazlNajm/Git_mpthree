@@ -1,4 +1,101 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #001C30;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245,255,250);
+    margin: 1em;
+    padding: 1em;
+    letter-spacing: 0.3em;
+    cursor: default;
+}
+.cc{
+    background-color: #176B87;
+    color: black;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 1.2em;
+    margin: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    height: 3.5em;
+    width: 3.5em;
+}
+.bb{
+    background-color: #64CCC5 ;
+    color: black;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 1.2em;
+    margin: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    height: 3.5em;
+    width: 3.5em;
+}
+.ff{
+    color: black;
+    background-color: #FF9EAA;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 1.2em;
+    margin: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    height: 3.5em;
+    width: 3.5em;
+}
+.gg{
+   color: black;
+   background-color: #DAFFFB;
+   border: none;
+   border-radius: 0.5em;
+   padding: 1em 1.2em;
+   margin: 0.3em;
+   font-weight: bold;
+   text-align: center;
+   cursor: pointer;
+   height: 3.5em;
+   width: 3.5em;
+}
+.mm{
+    color: black;
+    background-color: #FFD0D0;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 1.2em;
+    margin: 0.3em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    height: 3.5em;
+    width: 3.5em;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+button:hover{
+    background-color: #001C30;
+}
+button{
+    transition: .3s;
+}
+#voi{
+    width: 8em;
+}
+#noi{
+    width: 10.25em;
 }
