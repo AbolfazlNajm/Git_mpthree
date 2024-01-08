@@ -11,7 +11,7 @@ body{
 }
 form{
     background-image: linear-gradient(#4A55A2, #7895CB, #24243e);
-    width: 20em;
+    width: 20.3em;
     height: 30.3em;
     box-shadow: 5px 10px 30px;
     border-radius:8px;
@@ -22,7 +22,7 @@ h2{
     font-weight: bold;
     font-size: xx-large;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     cursor: pointer;
 }
 input{
@@ -31,8 +31,8 @@ input{
     border-radius: 5px;
     width:60% ;
     margin-bottom: 20px;
-    padding-top:13px;
-    padding-bottom: 13px;
+    padding-top:14px;
+    padding-bottom: 14px;
     padding-left: 11px;
     padding-right: 11px;
     font-size: x-small;
