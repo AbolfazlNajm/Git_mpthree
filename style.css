@@ -17,7 +17,7 @@ body{
     border-radius:8px;
     overflow: hidden;
 }
-h2{
+.vv{
     color: #ffffff;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -25,6 +25,8 @@ h2{
     margin-top: 50px;
     margin-bottom: 55px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 input{
     background: #e0dede;
@@ -60,18 +62,25 @@ button:hover{
  .log{
     height: 28.5em;
     background: #eeeeee;
-    transform: translateY(-11.25em);
+    transform: translateY(-10em);
     border-radius: 15em / 5em;
+    transition: 0.5s;
  }
- h3{
+ .ww{
     color: #4A55A2;
-    padding: 0.5em;
-    margin: 1.75em;
-    font-size: 2em;
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 2.5em;
+    padding-top: 0.3em;
  }
- #hell:checked ~ .log{
-    transform: translateY(-31.5em);
+ #hell{
+    display: none;
+ }
+ #hell:checked ~ .log {
+    transform: translateY(-31em);
  }
