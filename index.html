@@ -7,12 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <h2>Sign up</h2>
-        <input type="text" placeholder="User name">
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <button class="main">Sign up</button>
-    </form>
+    <div class="central">
+        <input type="checkbox" id="hell" aria-hidden="true">
+        
+        <div class="sign">
+            <form>
+                <h2>Sign up</h2>
+                <input type="text" placeholder="User name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign up</button>
+            </form>
+        </div>
+        <div class="log">
+            <form>
+                <h3 for="hell" aria-hidden="true">Login</h3>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
