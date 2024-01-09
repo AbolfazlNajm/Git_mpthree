@@ -25,8 +25,7 @@ body{
     margin-top: 50px;
     margin-bottom: 55px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 input{
     background: #e0dede;
@@ -62,9 +61,9 @@ button:hover{
  .log{
     height: 28.5em;
     background: #eeeeee;
-    transform: translateY(-10em);
+    transform: translateY(-4.5em);
     border-radius: 15em / 5em;
-    transition: 0.5s;
+    transition: 0.7s;
  }
  .ww{
     color: #4A55A2;
@@ -72,15 +71,14 @@ button:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 2.5em;
+    display: inline-block;
+    text-align: center;
+    margin: 9px 60px 60px 60px;
     padding-top: 0.3em;
  }
  #hell{
     display: none;
  }
  #hell:checked ~ .log {
-    transform: translateY(-31em);
+    transform: translateY(-24.75em);
  }
